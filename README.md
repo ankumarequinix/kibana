@@ -35,9 +35,13 @@ Visit [Elastic.co](http://www.elastic.co/guide/en/kibana/current/index.html) for
 
 For the daring, snapshot builds are available. These builds are created after each commit to the master branch, and therefore are not something you should run in production.
 
+
 | platform |  |  |
 | --- | --- | --- |
 | OSX | [tar](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-darwin-x64.tar.gz) | [zip](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-darwin-x64.zip) |
 | Linux x64 | [tar](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-linux-x64.tar.gz) | [zip](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-linux-x64.zip) |
 | Linux x86 | [tar](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-linux-x86.tar.gz) | [zip](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-linux-x86.zip) |
 | Windows | [tar](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-windows.tar.gz) | [zip](http://download.elastic.co/kibana/kibana-snapshot/kibana-4.4.2-windows.zip) |
+
+
+## version test for file ammend
