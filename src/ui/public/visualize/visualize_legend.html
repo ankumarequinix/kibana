@@ -1,5 +1,5 @@
 <div class="legend-col-wrapper" ng-if="labels.length">
-  <div ng-click="toggleLegend()" class="legend-toggle">
+  <div ng-click="toggleLegend()" class=" hide legend-toggle">
     <i class="fa" ng-class="open ? 'fa-chevron-right' : 'fa-chevron-left'"></i>
   </div>
   <ul class="legend-ul" ng-show="open">
@@ -12,8 +12,8 @@
       class="legend-value color">
 
       <div class="legend-value-container">
+      <!--           ng-click="showDetails = !showDetails" -->
         <div
-          ng-click="showDetails = !showDetails"
           ng-class="showDetails ? 'legend-value-full' : 'legend-value-truncate'"
           class="legend-value-title">
           <i class="fa fa-circle" ng-style="{color: getColor(legendData.label)}"></i> {{legendData.label}}

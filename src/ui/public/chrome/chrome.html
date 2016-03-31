@@ -1,9 +1,13 @@
 <kbn-notifications list="notifList"></kbn-notifications>
 <div class="content" chrome-context >
   <nav
-    ng-style="::{ background: chrome.getNavBackground() }"
+    style="background : rgb(101, 106, 118) none repeat scroll 0% 0%;"
     ng-class="{ show: chrome.getVisible() }"
-    class="hide navbar navbar-inverse navbar-static-top">
+    class="show navbar navbar-inverse navbar-static-top">
+<!--     class="hide navbar navbar-inverse navbar-static-top" -->
+<!-- ng-style="::{ background: chrome.getNavBackground() }" -->
+<!--      ng-style="background : 'rgb(101, 106, 118) none repeat scroll 0% 0%'" -->
+  
 
     <!-- Mobile navbar -->
     <div class="navbar-header">
@@ -23,7 +27,8 @@
 
     <!-- Full navbar -->
     <div collapse="!showCollapsed" class="navbar-collapse" kbn-chrome-append-nav-controls>
-      <ul class="nav navbar-nav" role="navigation">
+<!--       <ul class="nav navbar-nav" role="navigation"> -->
+  	  <ul class="hide nav navbar-nav" role="navigation">
         <li
           ng-if="chrome.getBrand('logo')"
           ng-style="{ 'background': chrome.getBrand('logo') }"
